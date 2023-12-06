@@ -45,3 +45,10 @@ Smoke_Alarm_at_Fire_Origin_Alarm_Type(Datatype: String)
 Status_of_Fire_On_Arrival(Datatype: String)
 TFS_Alarm_Time(Datatype: String)
 TFS_Arrival_Time(Datatype: String)
+
+Conclusion
+
+Features responsible for an increase in number of Civilian Casualties are found to be Area of Origin,  Fire Alarm System Operation, Fire Alarm System Presence, Incident Station Area, Incident Ward, Possible Cause, Status of Fire On Arrival and Difference in Alarm Time and  Arrival Time. Features responsible for an increase in sum of Estimated Dollar Loss are found to be Business Impact, Extent Of Fire, Fire Alarm System Operation, Fire Alarm System Presence, Incident Station Area, Incident Ward, Material First Ignited, and Status of Fire On Arrival. 
+
+The result of classification task done using Random Forest Classifier to predict Civilian Casualties shows that the model has 98% accuracy and test error of 0.012. The result of classification task done using Random Forest Classifier to predict to predict Estimated Dollar Loss shows that the model has 99% accuracy and test error of 0.007. This might be kind of overfitting. Need more work on this to find out a best model.
+
