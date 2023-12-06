@@ -2,16 +2,22 @@
 Big data analytics, visualization and classification of fire incidents happened at Toronto
 
 Introduction
+
 This project focuses on finding interesting insights from the fire-incidents dataset, obtained from Kaggle.com, by doing exploratory data analysis and visualization on the dataset. The dataset has the information on fire-incidents happened at Toronto, Canada during the period 2011 to 2018. The analysis mainly focuses on what all factors affected an increase in Civilian Casualties and Estimated Dollar Loss. Further, a classification task is done that would be useful in predicting Civilian Casualties and Estimated Dollar Loss.
+
 Softwares and libraries used for this project are Tableau (for visualization) and PySpark (for analysis and Classification). Code is written in visual studio code editor, however it is executed in Linux terminal using pyspark.
+
 Windows operating system is used for Tableau. A virtual machine with Linux operating system is used for execution of code in PySpark.
 
 Description on the Dataset
+
 Link to dataset:
 https://www.kaggle.com/datasets/reihanenamdari/fire-incidents
 
 This dataset contains 27 columns and 11214 rows.
+
 Attributes and it’s Datatypes
+
 Area_of_Origin(Datatype: String)
 Business_Impact(Datatype: String)
 Civilian_Casualties(Datatype: Int)
